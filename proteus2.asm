@@ -1,0 +1,19 @@
+    LIST P=16F628A
+    INCLUDE <P16F628A.INC>
+
+    __CONFIG _CP_OFF & _WDT_OFF & _XT_OSC
+
+    ORG 0x0000
+
+Start:
+    BSF STATUS, RP0
+    MOVLW 0x00
+    MOVWF TRISB
+    BCF STATUS, RP0
+    MOVLW 0x20     ; 0b00100000  --> RB5 = 1
+    MOVWF PORTB
+
+MainLoop:
+    GOTO MainLoop
+
+    END
