@@ -19,11 +19,11 @@ This project simulates a basic **LED control system** using the **PIC16F628A** m
 
 ### Passive State (All LEDs OFF)
 
-<img src="led_kontrol_pasif.jpeg" alt="All LEDs Off" width="600"/>
+<img src="https://github.com/Ardacanuysal/MPLAB/blob/main/proteus.jpeg" alt="All LEDs Off" width="600"/>
 
 ### Active State (Only D6 LED ON)
 
-<img src="led_kontrol_d6_aktif.jpeg" alt="D6 LED On" width="600"/>
+<img src="https://github.com/Ardacanuysal/MPLAB/blob/main/proteus2.jpeg" alt="D6 LED On" width="600"/>
 
 ---
 
